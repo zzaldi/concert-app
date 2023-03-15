@@ -32,7 +32,7 @@ body{
 }
 .container label{
     text-align: left;
-    color: #e6bd09;
+    color: #ffffff;
 }
 .container form input{
     width: calc(100% - 20px);
@@ -51,4 +51,12 @@ body{
     background-color:#e5b403;
     font-size: 18px;
     color: #fafafa;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    
+}
+.container form button:hover{
+    color: #e5b403;
+    background-color: #fafafa;
+
 }
