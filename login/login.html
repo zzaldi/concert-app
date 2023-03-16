@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+        <div class="container">
+          <h1>Login</h1>
+            <form>
+                <label>Username</label><br>
+                <input type="text" id="username"><br>
+                <label>Password</label><br>
+                <input type="password" id="password"><br>
+                <button input type="button" value="Login" onClick="Login()">Log in</button>
+            </form>
+        </div>     
+        <script>    
+        function Login(){ 
+            let user = document.getElementById("username").value
+            let pass = document.getElementById("password").value
+
+            if (user=="zaldi zaldi","binscup","husain","muh cs" && pass=="123"){
+                alert("Selamat anda berhasil login")
+            }else if (user != "zaldi zaldi","binscup","husain" && pass == "123"){
+                alert("Username tidak terdaftar!")
+            }else if(user=="zaldi zaldi","binscup","husain","muh cs" && pass != "123"){
+                alert("password salah!")
+            }else if(user != "zaldi zaldi","binscup","husain"&& pass != "123"){
+                alert("Anda adalah orang yang tidak dikenal. pergi dari situs ini!")
+            }
+        }
+    </script>
+        </script>
+    </body>
+</html>
